@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: weitian826@gmail.com
 description: "这里是 wlq 的个人博客，探索世界。"
 keyword: "wlq, weitian826, wlq的博客, wlq Blog, 博客, 个人网站, 互联网"
-url: "https://wlq.me"              # your host, for absolute URL
+url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
