@@ -12,6 +12,11 @@ tags:
 
 > Longest Palindromic Substring
 
+“回文串”是一个正读和反读都一样的字符串，比如“level”或者“noon”等等就是回文串。回文子串，顾名思义，即字符串中满足回文性质的子串。
+
+经常有一些题目围绕回文子串进行讨论，比如POJ3974最长回文，求最长回文子串的长度。朴素算法是依次以每一个字符为中心向两侧进行扩展，显然这个复杂度是O(N^2)的，关于字符串的题目常用的算法有KMP、后缀数组、AC 自动机，这道题目利用扩展KMP可以解答，其时间复杂度也很快O(N*logN)。但是，今天笔者介绍一个专门针对回文子串的算法，其时间复杂度为O(n)，这就是manacher 算法。
+
+
 ##problem
 Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 Example:
