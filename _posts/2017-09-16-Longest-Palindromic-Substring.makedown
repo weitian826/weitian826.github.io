@@ -1,4 +1,16 @@
-#Longest Palindromic Substring
+---
+layout:     post
+title:      "Longest Palindromic Substring"
+subtitle:   ""
+date:       2017-09-16 01:24:50
+author:     "wlq"
+header-img: "img/post_bg_gravitational_wave.jpg"
+tags:
+    - leetcode
+    - string algorithms
+---
+
+> Longest Palindromic Substring
 
 ##problem
 Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
